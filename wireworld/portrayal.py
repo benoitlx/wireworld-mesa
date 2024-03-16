@@ -1,4 +1,4 @@
-def portayCell(cell):
+def portrayCell(cell):
     """
     This function is to be called each tick for each cells
     to indicate how to draw the cell in the current state

@@ -30,7 +30,7 @@ class WireWorld(mesa.Model):
         for contents, (x, y) in self.grid.coord_iter():
             cell = Cell((x, y), self)
             if self.random.random() < 0.1:
-                cell.state = cell.ALIVE
+                cell.state = cell.COPPER
             self.grid.place_agent(cell, (x, y))
             self.schedule.add(cell)
 
